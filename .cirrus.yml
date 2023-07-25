@@ -1,0 +1,12 @@
+task:
+  name: "Setting Up"
+  timeout_in: 90m  
+  container:
+      image: ubuntu:18.04
+      cpu: 8
+      memory: 32G
+        
+  Setup_script:
+       - git config --global user.name "hariphoenix1708"
+       - git config --global user.email "hariv1708@gmail.com"
+       - git config --global color.ui true
